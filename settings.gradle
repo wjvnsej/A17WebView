@@ -1,0 +1,2 @@
+rootProject.name='A17WebView'
+include ':app'

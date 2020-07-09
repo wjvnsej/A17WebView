@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">A17WebView</string>
+
+    <string name="web_url">http://nakja.co.kr/kosmoWebView/index.html</string>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kosmo.a17webview">
+
+    <!--
+    웹 뷰는 인터넷을 사용하기 떄문에 웹 접속을 위해서는 반드시 인터넷 접속권한을 부여해야 한다.
+    -->
+    <!-- 휴대폰 어플 내부에서 인터넷 사용 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 애물레이터 어플 내부에서 인터넷사용시 아래 <application 에 추가 할 내용 -->
+    <!-- android:usesCleartextTraffic="true" -->
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
